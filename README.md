@@ -58,24 +58,24 @@ minikube dashboard
 ```
 
 
-### File Explanation
-# app.py
+# File Explanation
+## app.py
 A simple flask app and it responsible for
 
 - Accepting an input JSON payload, and converting it into a DataFrame.
 - Scaling of the the DataFrame payload.
 - Passing the scaled data to a pre-trained model and retrieve a prediction.
 
-# run_docker.sh
+## run_docker.sh
 Build and run docker locally
 
-# make_prediction.sh
+## make_prediction.sh
 Responsible for sending input data to the containerized application and print logs
 
-# upload_docker.sh
+## upload_docker.sh
 Upload built image to docker
 
-# run_kubernetes.sh
+## run_kubernetes.sh
 Deploy the application to the Kubernetes cluster
 
 
